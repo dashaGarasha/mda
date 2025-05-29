@@ -4,7 +4,7 @@ nav{
     padding: 30px;
     justify-content: center;
     gap: 50px;
-    background-image: url(/img/герли.gif);
+    background-image: url(img/герли.gif);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: left;
@@ -26,13 +26,13 @@ main{
 }
 footer{
     background-color: rgb(236, 238, 215);
-    background-image: url(/img/спанчик.gif);
+    background-image: url(img/спанчик.gif);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
 }
 #r{
-    background-image: url(/img/танцыгерл.gif);
+    background-image: url(img/танцыгерл.gif);
     width: 160%;
     height: 100px;
     background-size: contain;
