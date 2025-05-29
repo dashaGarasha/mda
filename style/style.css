@@ -16,7 +16,7 @@ h3{
 }
         /* НАВИГАЦИЯ, ШАПКА */
 #glav ul{
-    background: url(./img/шапка.gif);
+    background: url(img/шапка.gif);
     list-style-type: none;
     display: flex;
     padding: 50px;
@@ -48,7 +48,7 @@ hr:after {
     display: flex;
     color: rgb(255, 179, 239);
     background-color: rgb(50, 34, 107);
-    background-image: url(./img/нянке.gif);
+    background-image: url(img/нянке.gif);
     background-size: contain;
 }
 .shaa h1{
@@ -56,21 +56,21 @@ hr:after {
 }
         /* СТАРТОВЫЙ БЛОК */
 .cel{
-    background: url(./img/цель\ \(2\).jpg);  
+    background: url(img/цель\ \(2\).jpg);  
     width: 280px;
     height: 250px;
     background-size: cover;
     border-radius: 30px;
   }
   .usid{
-    background: url(./img/сидаун.jpg);  
+    background: url(img/сидаун.jpg);  
     width: 280px;
     height: 250px;
     background-size: cover;
     border-radius: 30px;
   }
   .lov{
-    background: url(./img/лав.jpg);  
+    background: url(img/лав.jpg);  
     width: 280px;
     height: 250px;
     background-size: cover;
@@ -85,14 +85,14 @@ hr:after {
       padding: 75px;
   }
   .ser1{
-    background: url(./img/сер1.png);  
+    background: url(img/сер1.png);  
     width: 150px;
     height: 150px;
     background-size: cover;
     padding: 10px;
   }
   .ser2{
-    background: url(./img/сер1.png);  
+    background: url(img/сер1.png);  
     width: 150px;
     height: 150px;
     background-size: cover;
@@ -117,7 +117,7 @@ hr:after {
 .kotim:after {
     content: "";
     display: inline-block;
-    background: url(./img/розови.gif);
+    background: url(img/розови.gif);
     background-size: contain;
     background-repeat: no-repeat;
     width: 80px;
@@ -125,7 +125,7 @@ hr:after {
     vertical-align: middle;
 }
 .manin{
-    background: url(./img/манька.gif);
+    background: url(img/манька.gif);
     background-size: contain;
     background-repeat: no-repeat;
     width: 250px;
@@ -145,7 +145,7 @@ hr:after {
 .gorilla:after {
     content: "";
     display: inline-block;
-    background: url(./img/опагори.gif);
+    background: url(img/опагори.gif);
     background-size: contain;
     background-repeat: no-repeat;
     width: 70px;
@@ -153,7 +153,7 @@ hr:after {
     vertical-align: middle;
 }
 .eating{
-    background: url(./img/горилла\ ест.gif);
+    background: url(img/горилла\ ест.gif);
     background-size: contain;
     background-repeat: no-repeat;
     width: 250px;
@@ -163,7 +163,7 @@ hr:after {
 }
         /* АВТОРИЗАЦИЯ */
 .form1 {
-    background: url(./img/поезд.gif);
+    background: url(img/поезд.gif);
     padding: 30px;
     border-radius: 10px;
     width: 300px;
@@ -201,7 +201,7 @@ label{
 }
         /* ИНФОРМАЦИЯ ОБ АВТОРЕ */
 .im{
-    background: url(./img/персоналити.jpg);
+    background: url(img/персоналити.jpg);
     width: 300px;
     height: 300px;
     background-size: cover;
@@ -215,7 +215,7 @@ label{
     display: inline-block;
     width: 20px;
     height: 20px;
-    background-image: url(./img/монета.gif);
+    background-image: url(img/монета.gif);
     background-size: cover;
     margin-right: 5px;
 }
@@ -227,12 +227,12 @@ label{
     display: inline-block;
     width: 20px;
     height: 20px;
-    background-image: url(./img/радугазвезда.gif);
+    background-image: url(img/радугазвезда.gif);
     background-size: cover;
     margin-right: 5px;
 }
 .skvi{
-    background: url(./img/сквид.gif);
+    background: url(img/сквид.gif);
     width: 150px;
     height: 150px;
     background-size: contain;
@@ -241,7 +241,7 @@ label{
 }
             /* РЕГИСТРАЦИЯ */
 .form2 {
-    background: url(./img/котя.gif);
+    background: url(img/котя.gif);
     padding: 30px;
     border-radius: 10px;
     width: 300px;
@@ -291,7 +291,7 @@ label{
 }
         /* МОИ РАБОТЫ */
 .fly{           
-    background: url(./img/летит.gif);
+    background: url(img/летит.gif);
     width: 200px;
     height: 200px;
     background-size: contain;
@@ -306,7 +306,7 @@ label{
     display: inline-block;
     width: 20px;
     height: 20px;
-    background-image: url(/img/капкун.gif);
+    background-image: url(img/капкун.gif);
     background-size: cover;
     margin-right: 5px;
 }
@@ -542,7 +542,7 @@ label{
     background-color: #000;
 }
 .seaa{
-    background: url(/img/опос.png);
+    background: url(img/опос.png);
     height: 50px;
     width: 200px;
     background-size: contain;
