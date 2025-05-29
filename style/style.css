@@ -48,7 +48,7 @@ hr:after {
     display: flex;
     color: rgb(255, 179, 239);
     background-color: rgb(50, 34, 107);
-    background-image: url(/img/нянке.gif);
+    background-image: url(../img/нянке.gif);
     background-size: contain;
 }
 .shaa h1{
