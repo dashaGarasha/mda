@@ -1,4 +1,7 @@
-    /* ОСНОВНОЙ ШРИФТ И ЦВЕТ САЙТА */
+Вот исправленный файл `style.css` с корректными путями к изображениям, учитывая вашу структуру папок:
+
+```css
+/* ОСНОВНОЙ ШРИФТ И ЦВЕТ САЙТА */
 body {
     font-family: Arial, sans-serif;
     background-color: rgb(255, 248, 251);
@@ -16,7 +19,7 @@ h3{
 }
         /* НАВИГАЦИЯ, ШАПКА */
 #glav ul{
-    background: url(img/шапка.gif);
+    background: url(../img/шапка.gif);
     list-style-type: none;
     display: flex;
     padding: 50px;
@@ -48,7 +51,7 @@ hr:after {
     display: flex;
     color: rgb(255, 179, 239);
     background-color: rgb(50, 34, 107);
-    background-image: url(img/нянке.gif);
+    background-image: url(../img/нянке.gif);
     background-size: contain;
 }
 .shaa h1{
@@ -56,21 +59,21 @@ hr:after {
 }
         /* СТАРТОВЫЙ БЛОК */
 .cel{
-    background: url(img/цель\ \(2\).jpg);  
+    background: url(../img/цель\ \(2\).jpg);  
     width: 280px;
     height: 250px;
     background-size: cover;
     border-radius: 30px;
   }
   .usid{
-    background: url(img/сидаун.jpg);  
+    background: url(../img/сидаун.jpg);  
     width: 280px;
     height: 250px;
     background-size: cover;
     border-radius: 30px;
   }
   .lov{
-    background: url(img/лав.jpg);  
+    background: url(../img/лав.jpg);  
     width: 280px;
     height: 250px;
     background-size: cover;
@@ -85,14 +88,14 @@ hr:after {
       padding: 75px;
   }
   .ser1{
-    background: url(img/сер1.png);  
+    background: url(../img/сер1.png);  
     width: 150px;
     height: 150px;
     background-size: cover;
     padding: 10px;
   }
   .ser2{
-    background: url(img/сер1.png);  
+    background: url(../img/сер1.png);  
     width: 150px;
     height: 150px;
     background-size: cover;
@@ -117,7 +120,7 @@ hr:after {
 .kotim:after {
     content: "";
     display: inline-block;
-    background: url(img/розови.gif);
+    background: url(../img/розови.gif);
     background-size: contain;
     background-repeat: no-repeat;
     width: 80px;
@@ -125,7 +128,7 @@ hr:after {
     vertical-align: middle;
 }
 .manin{
-    background: url(img/манька.gif);
+    background: url(../img/манька.gif);
     background-size: contain;
     background-repeat: no-repeat;
     width: 250px;
@@ -145,7 +148,7 @@ hr:after {
 .gorilla:after {
     content: "";
     display: inline-block;
-    background: url(img/опагори.gif);
+    background: url(../img/опагори.gif);
     background-size: contain;
     background-repeat: no-repeat;
     width: 70px;
@@ -153,7 +156,7 @@ hr:after {
     vertical-align: middle;
 }
 .eating{
-    background: url(img/горилла\ ест.gif);
+    background: url(../img/горилла\ ест.gif);
     background-size: contain;
     background-repeat: no-repeat;
     width: 250px;
@@ -163,7 +166,7 @@ hr:after {
 }
         /* АВТОРИЗАЦИЯ */
 .form1 {
-    background: url(img/поезд.gif);
+    background: url(../img/поезд.gif);
     padding: 30px;
     border-radius: 10px;
     width: 300px;
@@ -201,7 +204,7 @@ label{
 }
         /* ИНФОРМАЦИЯ ОБ АВТОРЕ */
 .im{
-    background: url(img/персоналити.jpg);
+    background: url(../img/персоналити.jpg);
     width: 300px;
     height: 300px;
     background-size: cover;
@@ -215,7 +218,7 @@ label{
     display: inline-block;
     width: 20px;
     height: 20px;
-    background-image: url(img/монета.gif);
+    background-image: url(../img/монета.gif);
     background-size: cover;
     margin-right: 5px;
 }
@@ -227,12 +230,12 @@ label{
     display: inline-block;
     width: 20px;
     height: 20px;
-    background-image: url(img/радугазвезда.gif);
+    background-image: url(../img/радугазвезда.gif);
     background-size: cover;
     margin-right: 5px;
 }
 .skvi{
-    background: url(img/сквид.gif);
+    background: url(../img/сквид.gif);
     width: 150px;
     height: 150px;
     background-size: contain;
@@ -241,7 +244,7 @@ label{
 }
             /* РЕГИСТРАЦИЯ */
 .form2 {
-    background: url(img/котя.gif);
+    background: url(../img/котя.gif);
     padding: 30px;
     border-radius: 10px;
     width: 300px;
@@ -291,7 +294,7 @@ label{
 }
         /* МОИ РАБОТЫ */
 .fly{           
-    background: url(img/летит.gif);
+    background: url(../img/летит.gif);
     width: 200px;
     height: 200px;
     background-size: contain;
@@ -306,7 +309,7 @@ label{
     display: inline-block;
     width: 20px;
     height: 20px;
-    background-image: url(img/капкун.gif);
+    background-image: url(../img/капкун.gif);
     background-size: cover;
     margin-right: 5px;
 }
@@ -542,7 +545,7 @@ label{
     background-color: #000;
 }
 .seaa{
-    background: url(img/опос.png);
+    background: url(../img/опос.png);
     height: 50px;
     width: 200px;
     background-size: contain;
@@ -600,7 +603,7 @@ label{
 }
 .post1 .image{
     margin-top: 30px;
-    background: url(pages/works/pr9/media/weather-sun.jpg);
+    background: url(../pages/works/pr9/media/weather-sun.jpg);
     width: 100px;
     height: 100px;
     border: 2px solid rgb(223, 151, 228);
@@ -616,7 +619,7 @@ label{
 }
 .post2 .image{
     margin-top: 30px;
-    background: url(pages/works/pr9/media/weather-sun.jpg);
+    background: url(../pages/works/pr9/media/weather-sun.jpg);
     width: 100px;
     height: 100px;
     border: 2px solid rgb(223, 151, 228);
@@ -640,19 +643,19 @@ label{
     font-size: 25px;
 }
 .image11{
-    background: url(pages/works/pr9/media/weather-sun.jpg);
+    background: url(../pages/works/pr9/media/weather-sun.jpg);
     width: 110px;
     height: 110px;
     background-repeat: no-repeat;
 }
 .image22{
-    background: url(pages/works/pr9/media/weather-snow.jpg);
+    background: url(../pages/works/pr9/media/weather-snow.jpg);
     width: 110px;
     height: 110px;
     background-repeat: no-repeat;
 }
 .image33{
-    background: url(pages/works/pr9/media/weather-blizzard.jpg);
+    background: url(../pages/works/pr9/media/weather-blizzard.jpg);
     width: 110px;
     height: 110px;
     background-repeat: no-repeat;
@@ -720,7 +723,7 @@ label{
     position: relative;
 }
 .card #cc1{
-    background: url(img/mask3.png);
+    background: url(../img/mask3.png);
     width: 310px;
     height: 380px;
     background-repeat: no-repeat;
@@ -730,7 +733,7 @@ label{
     margin-top: 50px;
 }
 .card #cc2{
-    background: url(img/mask1.png);
+    background: url(../img/mask1.png);
     width: 310px;
     height: 380px;
     background-repeat: no-repeat;
@@ -740,7 +743,7 @@ label{
     margin-top: 50px;
 }
 .card #cc3{
-    background: url(img/mask2.png);
+    background: url(../img/mask2.png);
     width: 310px;
     height: 380px;
     background-repeat: no-repeat;
@@ -751,15 +754,15 @@ label{
 }
 @font-face{
     font-family: PopMed;
-    src: url(pages/works/pr10/Poppins-Medium.ttf);
+    src: url(../pages/works/pr10/Poppins-Medium.ttf);
 }
 @font-face{
     font-family: PopTh;
-    src: url(pages/works/pr10/Poppins-Thin.ttf);
+    src: url(../pages/works/pr10/Poppins-Thin.ttf);
 }
 @font-face{
     font-family: PopLi;
-    src: url(pages/works/pr10/Poppins-Light.ttf);
+    src: url(../pages/works/pr10/Poppins-Light.ttf);
 }
 /* ПРАКТИЧЕСКАЯ РАБОТА №11 */
 .head11{
@@ -769,7 +772,7 @@ label{
     justify-content: space-between;
 }
 .head11 .logoap{
-    background: url(img/kiwi.png);
+    background: url(../img/kiwi.png);
     height: 150px;
     width: 150px;
     background-size: cover;
@@ -804,11 +807,11 @@ label{
 }
 @font-face{
     font-family: sak;
-    src: url(pages/works/pr11/ofont.ru_Rounded\ Sans\ Serif\ 7.ttf);
+    src: url(../pages/works/pr11/ofont.ru_Rounded\ Sans\ Serif\ 7.ttf);
 }
 @font-face{
     font-family: mon;
-    src: url(pages/works/pr11/ofont.ru_Montserrat\ Alternates.ttf);
+    src: url(../pages/works/pr11/ofont.ru_Montserrat\ Alternates.ttf);
 }
  .reaction{              /*ПЕРВЫЙ ТОВАР */
     display: inline-block;
@@ -858,7 +861,7 @@ label{
     font-family: "mon";
 }
 .mdm{
-    background: url(img/m&m.png);
+    background: url(../img/m&m.png);
     width: 200px;
     height: 150px;
     margin-bottom: 10px;
@@ -892,7 +895,7 @@ label{
     text-decoration-color: red; color: rgb(138, 127, 130);
 }
 .oboloch .serdse{
-    background: url(img/heart.png);
+    background: url(../img/heart.png);
     width: 30px;
     height: 30px;
     background-size: cover;
@@ -904,7 +907,7 @@ label{
     gap: 80px;
 }
 .toch{
-    background: url(img/tosha.png);
+    background: url(../img/tosha.png);
     width: 30px;
     height: 30px;
     background-size: cover;
@@ -951,7 +954,7 @@ label{
     gap: 2%;
 }
 .wrw{                         /*ВТОРОЙ ТОВАР */
-    background: url(img/bueno.png);
+    background: url(../img/bueno.png);
     width: 220px;
     height: 100px;
     margin-bottom: 10px;
@@ -982,7 +985,7 @@ label{
     font-weight: bold;
 }
 .oboloch22 .serdse{
-    background: url(img/heart.png);
+    background: url(../img/heart.png);
     width: 30px;
     height: 30px;
     background-size: cover;
@@ -991,7 +994,7 @@ label{
 }
 /*ТРЕТИЙ ТОВАР */
 .srt{
-    background: url(img/iceCr.png);
+    background: url(../img/iceCr.png);
     width: 125px;
     height: 170px;
     margin-bottom: 10px;
@@ -1019,7 +1022,7 @@ label{
     font-weight: bold;
 }
 .oboloch33 .serdse{
-    background: url(img/heart.png);
+    background: url(../img/heart.png);
     width: 30px;
     height: 30px;
     background-size: cover;
@@ -1043,7 +1046,7 @@ label{
     cursor: pointer;
 }
 .gav{                         /*ЧЕТВЕРТЫЙ ТОВАР */
-    background: url(img/kitkat.png);
+    background: url(../img/kitkat.png);
     width: 200px;
     height: 60px;
     background-size: cover;
@@ -1052,7 +1055,7 @@ label{
     margin-bottom: 50px;
 }
 .yyu{                         /*ПЯТЫЙ ТОВАР */
-    background: url(img/nesquik.png);
+    background: url(../img/nesquik.png);
     width: 140px;
     height: 160px;
     margin-left: 25px;
@@ -1073,7 +1076,7 @@ label{
     font-weight: bold;
 }
 .kek{   /*ШЕСТОЙ ТОВАР */
-    background: url(img/skit.png);
+    background: url(../img/skit.png);
     width: 160px;
     height: 110px;
     margin-left: 25px;
@@ -1083,7 +1086,7 @@ label{
     background-repeat: no-repeat;
 }
 .lolr{   /*СЕДЬМОЙ ТОВАР */
-    background: url(img/oreo.png);
+    background: url(../img/oreo.png);
     width: 140px;
     height: 180px;
     margin-left: 30px;
@@ -1091,7 +1094,7 @@ label{
     background-repeat: no-repeat;
 }
 .vsp{ /*ВОСЬМОЙ ТОВАР */
-    background: url(img/snick.png);
+    background: url(../img/snick.png);
     width: 190px;
     height: 90px;
     margin-top: 35px;
@@ -1100,7 +1103,7 @@ label{
     background-repeat: no-repeat;
 }
 .pis{ /*ДЕВЯТЫЙ ТОВАР */
-    background: url(img/caramel.png);
+    background: url(../img/caramel.png);
     width: 130px;
     height: 180px;
     margin-left: 30px;
@@ -1108,7 +1111,7 @@ label{
     background-repeat: no-repeat;
 }
 .losq{ /*ДЕСЯТЫЙ ТОВАР */
-    background: url(img/twix.png);
+    background: url(../img/twix.png);
     width: 200px;
     height: 80px;
     background-size: cover;
@@ -1117,7 +1120,7 @@ label{
     margin-bottom: 40px;
 }
 .fafa{ /*ОДИННАДЦАТЫЙ ТОВАР */
-    background: url(img/banka.png);
+    background: url(../img/banka.png);
     width: 120px;
     height: 165px;
     background-size: cover;
@@ -1125,7 +1128,7 @@ label{
     margin-left: 45px;
 }
 .gang{ /*ДВЕНАДЦАТЫЙ ТОВАР */
-    background: url(img/orochok.png);
+    background: url(../img/orochok.png);
     width: 200px;
     height: 85px;
     background-size: cover;
@@ -1168,37 +1171,37 @@ label{
     margin-bottom: 30px;
 }
 #yout{
-    background: url(img/youtube.png);
+    background: url(../img/youtube.png);
     height: 40px;
     width: 40px;
     background-size: cover;
 }
 #insta{
-    background: url(img/insta.png);
+    background: url(../img/insta.png);
     height: 40px;
     width: 40px;
     background-size: cover;
 }
 #facebook{
-    background: url(img/faceboo.png);
+    background: url(../img/faceboo.png);
     height: 50px;
     width: 50px;
     background-size: cover;
 }
 #twitter{
-    background: url(img/twitter.png);
+    background: url(../img/twitter.png);
     height: 40px;
     width: 40px;
     background-size: cover;
 }
 #fochan{
-    background: url(img/4chan.png);
+    background: url(../img/4chan.png);
     height: 40px;
     width: 40px;
     background-size: cover;
 }
 #pinter{
-    background: url(img/pinterest.png);
+    background: url(../img/pinterest.png);
     height: 40px;
     width: 40px;
     background-size: cover;
@@ -1210,1024 +1213,4 @@ label{
     margin-top: 50px;
 }
 #ulka li:hover{
-    background: linear-gradient(to right, #881e3e, #c2134e);
-    padding: 2px;
-    font-size: 17px;
-    font-weight: bold;
-}
-/* ДРУГОЙ ВАРИАНТ */
-.kos{
-    background: url(img/shrekin.webp);
-    width: 150px;
-    height: 150px;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-.korzino{
-    background: url(img/kokosh.png);
-    width: 50px;
-    height: 50px;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-.kombo{
-    display: flex;
-    gap: 60px;
-}
-.seno{
-    margin-top: 5px;
-    font-size: 30px;
-    font-weight: bold;
-}
-.haha a{
-    color: #87378c;
-    font-size: 14px;
-}
-.palaka{
-    font-family: "mon";
-}
-#kols{
-    font-family: "mon";
-    font-size: 30px;
-}
-#kai{
-    display: inline-flex;
-    margin: 20px;
-    flex-wrap: wrap;
-}
-.kas{
-    background: url(img/брелокинс.webp);
-    width: 150px;
-    height: 150px;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-.kosun{
-    background: url(img/дифф.webp);
-    width: 150px;
-    height: 150px;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-.kospo{
-    background: url(img/игр1.jpg);
-    width: 150px;
-    height: 150px;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-.kosrr{
-    background: url(img/игр2.jpg);
-    width: 150px;
-    height: 150px;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-.kosda{
-    background: url(img/игр3.jpg);
-    width: 150px;
-    height: 150px;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-.kosda1{
-    background: url(img/игр6.webp);
-    width: 150px;
-    height: 150px;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-.kosda12{
-    background: url(img/горилла\ ест.gif);
-    width: 150px;
-    height: 150px;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-/* ПРАКТИЧЕСКАЯ РАБОТА №14 */
-@font-face {
-    font-family: venec;
-    src: url(pages/works/pr14/PassionsConflictRUS-Regular.otf);
-}
-.bodypr14 .textGhost{
-    font-family: "venec";
-    font-size: 35px;
-    text-align: center;
-    margin-top: 50px;
-}
-.textGhost{
-    background: linear-gradient(to bottom, rgb(125, 6, 155), rgb(255, 0, 76));
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-.textGhost{
-    opacity: 1;
-    animation: Opagam 5s ease-in-out infinite;
-}
-@keyframes Opagam{
-    0%, 100% {opacity: 0;}
-    50% {opacity: 1;}
-}
-.cruassan{
-    background-image: url(img/мадока.gif);
-    height: 200px;
-    width: 200px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    margin: 30px;
-    margin-left: 35%;
-}
-.cruassan{
-    perspective: 1000px;
-    animation: gtg 3s ease-in-out infinite;
-}
-@keyframes gtg{
-    0% { transform: rotateY(0); }
-    50% { transform: rotateY(200deg); }
-    100% { transform: rotateY(0); }
-}
-/* ПРАКТИЧЕСКАЯ РАБОТА №15 */
-.sab1{
-    background: url(pages/works/pr15/sab1.png);
-    width: 489px;
-    height: 631px;
-}
-.sab2{
-    background: url(pages/works/pr15/sab2.png);
-    width: 376px;
-    height: 255px;
-}
-.sab3{
-    background: url(pages/works/pr15/sab3.png);
-    width: 379px;
-    height: 255px;
-}
-.sab4{
-    background: url(pages/works/pr15/sab4.png);
-    width: 375px;
-    height: 239px;
-}
-.sab5{
-    background: url(pages/works/pr15/sab5.png);
-    width: 388px;
-    height: 239px;
-}
-.bodypr15{
-    width: 1440px;
-    height: 1024px;
-}
-.bodypr15 .artsab{
-    display: grid;
-    grid-template-columns: 1fr 1fr 2fr;
-    column-gap: 20px;
-    row-gap: 24.2px;
-    margin-left: 72px;
-}
-.sab1{
-   grid-row: span 3;
-}
-.paxip{
-    grid-column: span 2;
-    font-family: "reganus";
-    font-size: 24px;
-}
-@font-face {
-    font-family: boldich;
-    src: url(pages/works/pr15/AlumniSans-Bold.ttf);
-}
-@font-face {
-    font-family: lightec;
-    src: url(pages/works/pr15/AlumniSans-Light.ttf);
-}
-@font-face {
-    font-family: reganus;
-    src: url(pages/works/pr15/AlumniSans-Regular.ttf);
-}
-@font-face {
-    font-family: meganus;
-    src: url(pages/works/pr15/AlumniSans-Medium.ttf);
-}
-.h215{
-    font-family: "meganus";
-    font-size: 48px;
-    margin-bottom: 111px;
-    text-align: center;
-}
-.p15{
-    font-family: "lightec";
-    font-size: 24px;
-    text-align: center;
-    margin-top: 112px;
-}
-/* ПРАКТИЧЕСКАЯ РАБОТА №16 */
-@font-face {
-    font-family: Jlight16;
-    src: url(pages/works/pr16/JosefinSans-Light.ttf);
-}
-@font-face {
-    font-family: Preg16;
-    src: url(pages/works/pr16/PlayfairDisplay-Regular.ttf);
-}
-@font-face {
-    font-family: Jreg16;
-    src: url(pages/works/pr16/JosefinSans-Regular.ttf);
-}
-@font-face {
-    font-family: OLight16;
-    src: url(pages/works/pr16/OpenSans_Condensed-Light.ttf);
-}
-@font-face {
-    font-family: PBlack16;
-    src: url(pages/works/pr16/PlayfairDisplay-Black.ttf);
-}
-@font-face {
-    font-family: JBold16;
-    src: url(pages/works/pr16/JosefinSans-Bold.ttf);
-}
-@font-face {
-    font-family: JLigital16;
-    src: url(pages/works/pr16/JosefinSans-LightItalic.ttf);
-}
-@font-face {
-    font-family: PBlack16;
-    src: url(pages/works/pr16/PlayfairDisplay-Black.ttf);
-}
-.body16{
-    background: rgb(241, 241, 241);
-    width: 1600px;
-    height: 5000px;
-    font-size: 16px;
-    font-family: "Jlight16";
-}
-.conta{
-    background: white;
-    text-transform: uppercase;
-    display: flex;
-    padding: 35px;
-    justify-content: center;
-    margin-left: 20%;
-    box-shadow: 1px 1px 14px rgba(0, 0, 0, 0.13);
-}
-.logoLemon1{
-    background: url(pages/works/pr16/Logo.png);
-    width: 400px;
-    height: 166.6px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin-top: 200px;
-    margin-left: 50%;
-    margin-bottom: 100px;
-}
-.nav16 ul{
-    display: flex;
-    list-style-type: none;
-    gap: 30px;
-}
-.nav16 ul li a{
-    text-decoration: none;
-    color: black;
-}
-.logoLemon2{
-    background: url(pages/works/pr16/Lemon_Logo.png);
-    width: 80px;
-    height: 33px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin-right: 130px;
-}
-.span16{
-    font-size: 12px;
-    width: 150px;
-    height: 12px;
-    background: white;
-    border: 1px solid rgb(194, 194, 194);
-    padding: 5px;
-    margin-left: 130px;
-    text-align: center;
-}
-.sec161{
-    background: url(pages/works/pr16/Photo.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    padding: 360px;
-    margin-left: 20%;
-    margin-top: 80px;
-    padding-left: 30px;
-}
-.logoLemon3{
-    background: url(pages/works/pr16/Logo.png);
-    width: 300px;
-    height: 125px;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-.bananas{
-     position: absolute;
-}
-.sec161 h3{
-    margin-top: 40px;
-    margin-left: 80px;
-    font-size: 24px;
-    font-family: "Preg16";
-    color: #7c182a;
-}
-.sec161 .logoLemon3{
-    margin-top: -280px;
-    margin-left: 80px;
-}
-.sec161 p{
-    margin-left: 80px;
-    width: 340px;
-}
-.sec161 button{
-    margin-left: 80px;
-    background: none;
-    border: 1px solid rgb(194, 194, 194);
-    padding: 5px;
-    font-family: "Jlight16";
-}
-.sec162{
-    background: white;
-    margin-left: 20%;
-    box-shadow: 1px 1px 14px rgba(0, 0, 0, 0.13);
-    margin-top: -100px;
-    padding: 50px;
-    display: flex;
-    justify-content: center;
-    gap: 130px;
-}
-.salatic{
-    background: url(pages/works/pr16/Photo1.png);
-    height: 300px;
-    width: 300px;
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-.prosmoy{
-    display: flex;
-    margin-top: -10px;
-    gap: 4px;
-    font-size: 12px;
-}
-.sawil1 p{
-    margin-top: -90px;
-}
-.time16{
-    background: url(pages/works/pr16/Clock\ Icon.png);
-    height: 10px;
-    width: 10px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    margin-top: 2px;
-}
-.soo16{
-    background: url(pages/works/pr16/Comment\ Icon\ copy.png);
-    height: 13px;
-    width: 12px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    margin-top: 2px;
-}
-.eya16{
-    background: url(pages/works/pr16/Veiw\ Icon\ copy.png);
-    height: 12px;
-    width: 12px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    margin-top: 2px;
-}
-.pastani{
-    background: url(pages/works/pr16/Photo2.png);
-    height: 300px;
-    width: 300px;
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-.pemeni{
-    background: url(pages/works/pr16/Photo3.png);
-    height: 300px;
-    width: 300px;
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-.sawil2 p{
-    margin-top: -90px;
-}
-.sawil3 p{
-    margin-top: -90px;
-    width: 300px;
-}
-.sec163{
-    background: url(pages/works/pr16/Photo4.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    padding: 360px;
-    margin-left: 20%;
-    margin-top: 80px;
-    padding-left: 30px;
-}
-.applepie{
-    position: absolute;
-    margin-left: 600px;
-    margin-top: -50px;
-    font-size: 16px;
-}
-.gallar16{
-    background: url(pages/works/pr16/Icon.png);
-    height: 25px;
-    width: 25px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    margin-left: 490px;
-    margin-top: 15px;
-    position: absolute;
-    z-index: 2;
-}
-.gallar16FONE{
-    height: 55px;
-    width: 30px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background: black;
-    opacity: 30%;
-    margin-left: 485px;
-    margin-top: 73.5px;
-    position: relative;
-    z-index: 1;
-}
-.iwan{
-    margin-top: -421px;
-}
-.timeas{
-    display: flex;
-    gap: 4px;
-    font-size: 16px;
-}
-.timeas button{
-    margin-left: 290px;
-    background: none;
-    border: 1px solid rgb(194, 194, 194);
-    padding: 5px;
-    font-family: "Jlight16";
-    margin-top: -10px;
-    font-size: 12px;
-    width: 100px;
-}
-.applepie h2{
-    font-size: 32px;
-    font-family: "PBlack16";
-    color: #055555;
-}
-.applepie h3{
-    font-family: "Preg16";
-}
-.applepie .cup16{
-    width: 535px;
-    line-height: 18px;
-}
-.applepie .arr16{
-    width: 510px;
-    line-height: 18px;
-}
-.sec164{
-    display: flex;
-    margin-top: -80px;
-    position: relative;
-    margin-left: 20%;
-    gap: 70px;
-}
-.conf1{
-    background: url(pages/works/pr16/Photo5.png);
-    height: 600px;
-    width: 600px;
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-.conf2{
-    background: white;
-    height: 580px;
-    width: 600px;
-    margin-top: 5px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    box-shadow: 1px 1px 14px rgba(0, 0, 0, 0.13);
-}
-.polos1{
-    background: rgb(194, 194, 194);
-    width: 450px;
-    height: 2px;
-    margin-top: 60px;
-    margin-left: 70px;
-}
-.conf1 .w404{
-    margin-left: 70px;
-    margin-top: 30px;
-    position: absolute;
-    font-size: 20px;
-    font-family: "Jreg16";
-    font-style: italic;
-}
-.conf1 .sorry{
-    margin-left: 260px;
-    margin-top: 190px;
-    position: absolute;
-    font-size: 34px;
-    font-family: "JBold16";
-}
-.conf1 .wecould{
-    margin-left: 230px;
-    margin-top: 230px;
-    width: 150px;
-    position: absolute;
-    font-size: 16px;
-    font-family: "PBlack16";
-    color: rgb(146, 146, 146);
-    text-align: center;
-}
-.conf1 .gr16{
-    margin-left: 290px;
-    margin-top: 280px;
-    position: absolute;
-}
-.conf1 button{
-    margin-left: 250px;
-    margin-top: 450px;
-    background: none;
-    position: absolute;
-    border: 1px solid rgb(194, 194, 194);
-    padding: 5px;
-    font-family: "Jlight16";
-    font-size: 12px;
-    width: 100px;
-}
-.polos2{
-    background: rgb(194, 194, 194);
-    width: 450px;
-    height: 2px;
-    margin-top: 50px;
-    margin-left: 70px;
-}
-.conf2 .auth{
-    margin-left: 70px;
-    margin-top: 20px;
-    position: absolute;
-    font-size: 20px;
-    font-family: "Jreg16";
-    font-style: italic;
-}
-.conf2 .kg16{
-    margin-top: 40px;
-    position: absolute;
-    font-size: 24px;
-    font-family: "JBold16";
-}
-.conf2 p{
-    margin-left: 170px;
-    margin-top: 80px;
-    position: absolute;
-    font-size: 14px;
-    font-family: "JLigital16";
-    line-height: 17px;
-    width: 310px;
-}
-.conf2 .unit16{
-    margin-top: 70px;
-    position: absolute;
-}
-.soc16{
-    background: url(pages/works/pr16/Icons.png);
-    height: 100px;
-    width: 100px;
-    margin-top: 95px;
-    margin-left: 170px;
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-.conf2 .polos3{
-    background: rgb(194, 194, 194);
-    width: 350px;
-    height: 2px;
-    margin-top: -60px;
-    margin-left: 170px;
-}
-.conf2 h3{
-    margin-left: 170px;
-    margin-top: 30px;
-    position: absolute;
-    font-size: 20px;
-    font-family: "Jreg16";
-    line-height: 17px;
-    width: 310px;
-    font-weight: lighter;
-    font-style: italic;
-}
-.signa16{
-    background: url(pages/works/pr16/Signature.png);
-    height: 200px;
-    width: 200px;
-    margin-top: 250px;
-    margin-left: 280px;
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-.g16ava{
-    background: url(pages/works/pr16/Photo6.png);
-    height: 100px;
-    width: 100px;
-    margin-top: 20px;
-    margin-left: 50px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    float: left;
-    padding-left: 20px;
-}
-.foot16 nav{
-    background: rgb(49, 49, 49);
-    text-transform: uppercase;
-    display: flex;
-    padding: 60px;
-    justify-content: center;
-    margin-left: 20%;
-    margin-top: 150px;
-    gap: 30px;
-}
-.foot16 nav ul li a, .foot16 span{
-    color: rgb(121, 121, 121);
-    font-weight: lighter;
-}
-.logoLemon4 {
-    background: url(pages/works/pr16/Logo2.png);
-    height: 120px;
-    width: 120px;
-    margin-right: 30px;
-    margin-top: -20px;
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-.foot16 nav ul{
-    margin-top: 100px;
-}
-.foot16 .soc16{
-    margin-left: 1420px;
-    margin-top: -140px;
-}
-/* ПРАКТИЧЕСКАЯ РАБОТА №17 */
-.main17{
-    background: white;
-}
-.body17{
-    width: 480px;
-}
-.sec171 h1{
-    background: #1e90ff;
-    padding: 20px;
-    text-align: center;
-    color: white;
-    font-size: 35px;
-    font-family: "bouReg";
-}
-.burger17{
-    background: url(pages/works/pr17/9.png);
-    width: 50px;
-    height: 50px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    position: absolute;
-    margin-top: -95px;
-    margin-left: 400px;
-}
-.netdr17{
-    background: rgb(85, 85, 85);
-    padding: 20px;
-    margin-top: -33px;
-    z-index: 1;
-    color: white;
-    font-size: 18px;
-    text-align: center;
-    font-family: "bouExLig";
-    font-weight: bold;
-}
-.netdr17 .Business{
-    background: #39a6ff;
-    padding: 20px;
-}
-.sec172{
-    margin-top: 20px;
-}
-.sec172 .angelina{
-    display: flex;
-    gap: 20px;
-    margin-top: 10px;
-    font-family: "bouExLig";
-}
-.angelina .angel17{
-    font-size: 19px;
-    margin-top: 30px;
-}
-.angelina .fr1500{
-    font-size: 35px;
-    margin-left: 70px;
-    margin-top: 20px;
-    color: gray;
-    font-family: "bouVar";
-}
-.fr11500{
-    font-size: 35px;
-    margin-left: 125px;
-    margin-top: 20px;
-    color: gray;
-    font-family: "bouVar";
-}
-.sec172 .fr17{
-    margin-left: 355px;
-    margin-top: -40px;
-    font-size: 20px;
-    position: absolute;
-    color: gray;
-    font-family: "bouExLig";
-}
-.sec172 .countr17{
-    margin-left: 120px;
-    margin-top: -40px;
-    position: absolute;
-    color: gray;
-    font-size: 16px;
-    font-family: "bouReg";
-}
-.joly{
-    background: url(pages/works/pr17/1.png);
-    width: 100px;
-    height: 100px;
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-.num2Joly{
-    background: url(pages/works/pr17/2.png);
-    width: 40px;
-    height: 40px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    position: absolute;
-    margin-left: 75px;
-}
-@font-face {
-    font-family: bouExLig;
-    src: url(pages/works/pr17/Bounded-ExtraLight.ttf);
-}
-@font-face {
-    font-family: bouReg;
-    src: url(pages/works/pr17/Bounded-Regular.ttf);
-}
-@font-face {
-    font-family: bouVar;
-    src: url(pages/works/pr17/Bounded-Variable.ttf);
-}
-.polos171{
-    width: 490px;
-    height: 0.4px;
-    background: gray;
-    margin-top: 20px;
-}
-.tomMay{
-    background: url(pages/works/pr17/26.png);
-    width: 100px;
-    height: 100px;
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-.tom17{
-    font-size: 19px;
-    margin-top: 30px;
-}
-.count17rr{
-    background: white;
-}
-.set17, .ed17, .del17{
-    background: rgb(85, 85, 85);
-    padding: 35px;
-    margin: 0.5px;
-}
-.setik17{
-    display: flex;
-    color: rgb(201, 201, 201);
-    font-family: "bouExLig";
-}
-.polos172{
-    width: 480px;
-    margin-left: -20px;
-    height: 1px;
-    background: gray;
-    position: absolute;
-}
-.polos174{
-    width: 490px;
-    height: 1px;
-    background: gray;
-    margin-top: 140px;
-    position: absolute;
-}
-.settings{
-    background: url(pages/works/pr17/25.png);
-    width: 40px;
-    height: 50px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    margin-left: 17px;
-}
-.edit{
-    background: url(pages/works/pr17/24.png);
-    width: 40px;
-    height: 50px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    margin-left: -2px;
-}
-.delete{
-    background: url(/23.png);
-    width: 40px;
-    height: 50px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    margin-left: 5px;
-}
-.rect17{
-    background: rgb(56, 56, 56);
-    width: 25px;
-    height: 140px;
-    position: absolute;
-    margin-top: -35px;
-    margin-left: -35px;
-}
-.pala1{
-    background: rgb(129, 129, 129);
-    width: 2px;
-    height: 60px;
-    position: absolute;
-    margin-left: -30px;
-}
-.pala2{
-    background: rgb(129, 129, 129);
-    width: 2px;
-    height: 60px;
-    position: absolute;
-    margin-left: -35px;
-}
-.palon17{
-    margin-left: 8px;
-}
-.count17rr{
-    margin-top: 35px;
-}
-.count17rr .r{
-    font-family: "bouVar";
-    font-size: 35px;
-    color: rgb(99, 99, 99);
-}
-.count17rr .t{
-    font-size: 20px;
-}
-.ten17{
-    font-size: 19px;
-    margin-top: 30px;
-}
-.fr15100{
-    font-size: 35px;
-    margin-left: 135px;
-    margin-top: 20px;
-    color: gray;
-    font-family: "bouVar";
-}
-.fr127{
-    margin-left: 360px;
-    margin-top: -42px;
-    font-size: 20px;
-    position: absolute;
-    color: gray;
-    font-family: "bouExLig";
-}
-.angelina .Ten{
-    background: url(pages/works/pr17/22.png);
-    width: 100px;
-    height: 100px;
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-.sec174{
-    margin-top: 80px;
-    color: gray;
-    font-family: "bouExLig";
-    font-weight: bold;
-    text-align: center;
-    font-size: 18px;
-}
-.load17{
-    background: url(pages/works/pr17/21.png);
-    width: 40px;
-    height: 70px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    justify-self: center;
-    margin: auto;
-}
-/* ПРАКТИЧЕСКАЯ РАБОТА №18 */
-.header18{
-    display: flex;
-    gap: 1370px;
-    justify-content: center;
-}
-.header18 h1{
-    text-transform: uppercase;
-    font-weight: lighter;
-    font-size: 16px;
-}
-.nav18 ul{
-    display: flex;
-    gap: 10px;
-    list-style-type: none;
-    margin-top: 8px;
-}
-.nav18 ul li a{
-    text-decoration: none;
-    color: #333;
-    font-size: 12px;
-}
-.nav18 ul li a:hover{
-    color: #7a8294;
-}
-.art18{
-    display: flex;
-    gap: 10px;
-    justify-content: center;
-}
-.img18{
-    background: #000;
-    height: 600px;
-    width: 610px;
-}
-.box18{
-    text-align: center;
-    color: white;
-    margin-top: -550px;
-}
-.box18 h2{
-    font-size: 30px;
-    text-transform: uppercase;
-}
-.box18 button{
-    font-size: 16px;
-    background: none;
-    color: white;
-    padding: 5px;
-}
-.img181{
-    background: url(pages/works/pr18/midi.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-.img182{
-    background: url(pages/works/pr18/pieap.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-.img183{
-    background: url(pages/works/pr18/pirog.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-.social18{
-    display: flex;
-    margin-top: 470px;
-    gap: 20px;
-    justify-content: center;
-}
-.kar18{
-    background: none;
-    width: 15px;
-    height: 15px;
-}
-.inst18{
-    background: url(pages/works/pr18/inst.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.tg18{
-    background: url(pages/works/pr18/tg.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.yout18{
-    background: url(pages/works/pr18/yuot.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.tt18{
-    background: url(pages/works/pr18/tt.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.vk18{
-    background: url(pages/works/pr18/vk.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+    background: linear-gradient(to right, #
